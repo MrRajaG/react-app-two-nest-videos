@@ -52,7 +52,7 @@ const Home = () => {
 
 const MyCarousel = () => (
     <Carousel autoPlay infiniteLoop interval={2000} showStatus={false} showThumbs={false} showArrows={false}>
-        <Box w={'full'} h={'100vh'}>
+        <Box w={'full'} h={'60vh'}>
             <Image src={img1}/>
             <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
                 Watch The Future
