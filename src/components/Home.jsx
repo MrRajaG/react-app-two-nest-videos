@@ -11,11 +11,11 @@ import img5 from '../assets/5.png'
 const headingOptions = {
     pos: 'absolute',
     left: '50%',
-    top: '50%',
+    top: ['75%', '50%'],
     transform: 'translate(-50%, -50%)',
     textTransform: 'uppercase',
     p: '4',
-    size: '4xl'
+    size: '4xl',
 }
 
 const Home = () => {
@@ -52,25 +52,25 @@ const Home = () => {
 
 const MyCarousel = () => (
     <Carousel autoPlay infiniteLoop interval={2000} showStatus={false} showThumbs={false} showArrows={false}>
-        <Box w={'full'} h={'60vh'}>
+        <Box w={'full'} h={['60vh', '100vh']} bgColor='purple.300'>
             <Image src={img1}/>
             <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
                 Watch The Future
             </Heading>
         </Box>
-        <Box w={'full'} h={'60vh'}>
+        <Box w={'full'} h={['60vh', '100vh']} bgColor='purple.300'>
             <Image src={img2}/>
             <Heading bgColor={'whiteAlpha.900'} color={'balck'} {...headingOptions}>
                 Future is Gaming
             </Heading>
         </Box>
-        <Box w={'full'} h={'60vh'}>
+        <Box w={'full'} h={['60vh', '100vh']} bgColor='purple.300'>
             <Image src={img3}/>
             <Heading bgColor={'whiteAlpha.600'} color={'balck'} {...headingOptions}>
                 Gaming on Console
             </Heading>
         </Box>
-        <Box w={'full'} h={'60vh'}>
+        <Box w={'full'} h={['60vh', '100vh']} bgColor='purple.300'>
             <Image src={img4}/>
             <Heading bgColor={'whiteAlpha.600'} color={'balck'} {...headingOptions}>
                 Night Life is Cool
