@@ -58,19 +58,19 @@ const MyCarousel = () => (
                 Watch The Future
             </Heading>
         </Box>
-        <Box w={'full'} h={'100vh'}>
+        <Box w={'full'} h={'60vh'}>
             <Image src={img2}/>
             <Heading bgColor={'whiteAlpha.900'} color={'balck'} {...headingOptions}>
                 Future is Gaming
             </Heading>
         </Box>
-        <Box w={'full'} h={'100vh'}>
+        <Box w={'full'} h={'60vh'}>
             <Image src={img3}/>
             <Heading bgColor={'whiteAlpha.600'} color={'balck'} {...headingOptions}>
                 Gaming on Console
             </Heading>
         </Box>
-        <Box w={'full'} h={'100vh'}>
+        <Box w={'full'} h={'60vh'}>
             <Image src={img4}/>
             <Heading bgColor={'whiteAlpha.600'} color={'balck'} {...headingOptions}>
                 Night Life is Cool
