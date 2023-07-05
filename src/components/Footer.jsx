@@ -33,7 +33,7 @@ const Footer = () => {
                 borderLeft={['none', '2px solid white']}
                 borderRight={['none', '2px solid white']}
             >
-                <Heading textTransform={'uppercase'} textAlign={'center'}>VIDEO HUB</Heading>
+                <Heading textTransform={'uppercase'} textAlign={'center'}>NEST VIDEOS</Heading>
                 <Text>All rights reserved</Text>
                 <Text>{'</>'} with ❤ by Muhammad Taha</Text>
             </VStack>

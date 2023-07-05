@@ -28,7 +28,7 @@ const Header = () => {
             <DrawerOverlay/>
             <DrawerContent>
                 <DrawerCloseButton/>
-                <DrawerHeader>VIDEO HUB</DrawerHeader>
+                <DrawerHeader>NEST VIDEOS</DrawerHeader>
                 <DrawerBody>
                     <VStack alignItems={'flex-start'}>
                         <Button onClick={onClose} variant={'ghost'} colorScheme='purple'>
